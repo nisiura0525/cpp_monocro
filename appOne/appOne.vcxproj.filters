@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="game">
+      <UniqueIdentifier>{98b5593d-6477-4e95-a744-1da920628e7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene">
+      <UniqueIdentifier>{54224c2d-2623-4a60-b7e0-0a13ea4e51e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="container">
+      <UniqueIdentifier>{9c9586f2-12b8-4890-b422-0db71504da61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scene\base">
+      <UniqueIdentifier>{e64dba40-a118-4f9a-9d22-299551c399f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character">
+      <UniqueIdentifier>{9875cba5-eeac-442a-9958-143fa2e7ab7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\anim,base,manager">
+      <UniqueIdentifier>{db941af4-e7d9-464c-a1eb-9f318858821d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map">
+      <UniqueIdentifier>{4c7bfe9f-0358-4bff-94b4-7e0384f78aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\blackChara">
+      <UniqueIdentifier>{8597862e-7a20-4609-8fa3-38b5ef202c85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\whiteChara">
+      <UniqueIdentifier>{2bd76917-18d9-4447-9bce-90ef9214283e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="character\bulletChara">
+      <UniqueIdentifier>{ee795abe-38d5-4adb-9eb5-8ea40c95258b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpp.hint">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="gmain.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="STAGE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TITLE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CONTAINER.cpp">
+      <Filter>container</Filter>
+    </ClCompile>
+    <ClCompile Include="FADE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SCENE.cpp">
+      <Filter>scene\base</Filter>
+    </ClCompile>
+    <ClCompile Include="ANIM.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ANIMS.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_WORLD.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="MAP.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME_OBJECT.cpp">
+      <Filter>game</Filter>
+    </ClCompile>
+    <ClCompile Include="STORY.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_PAWN.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_PAWN.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="CHARACTER.cpp">
+      <Filter>character</Filter>
+    </ClCompile>
+    <ClCompile Include="CHARACTER_MANAGER.cpp">
+      <Filter>character\anim,base,manager</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_PLAYER.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_PLAYER.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_WORLD.cpp">
+      <Filter>map</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_ROOK.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_ROOK.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_STAGE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_STAGE.cpp">
+      <Filter>scene</Filter>
+    </ClCompile>
+    <ClCompile Include="BISHOP_BULLET.cpp">
+      <Filter>character\bulletChara</Filter>
+    </ClCompile>
+    <ClCompile Include="PBULLET.cpp">
+      <Filter>character\bulletChara</Filter>
+    </ClCompile>
+    <ClCompile Include="BULLET.cpp">
+      <Filter>character\bulletChara</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_BISHOP.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_KNIGHT.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_BISHOP.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_KNIGHT.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_KING.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="BLACK_QUEEN.cpp">
+      <Filter>character\blackChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_KING.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="WHITE_QUEEN.cpp">
+      <Filter>character\whiteChara</Filter>
+    </ClCompile>
+    <ClCompile Include="QUEEN_BULLET.cpp">
+      <Filter>character\bulletChara</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="STAGE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TITLE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CONTAINER.h">
+      <Filter>container</Filter>
+    </ClInclude>
+    <ClInclude Include="FADE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SCENE.h">
+      <Filter>scene\base</Filter>
+    </ClInclude>
+    <ClInclude Include="ANIM.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ANIMS.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_WORLD.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="MAP.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_OBJECT.h">
+      <Filter>game</Filter>
+    </ClInclude>
+    <ClInclude Include="STORY.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_PAWN.h">
+      <Filter>character\whiteChara</Filter>
+    </ClInclude>
+    <ClInclude Include="CHARACTER.h">
+      <Filter>character</Filter>
+    </ClInclude>
+    <ClInclude Include="CHARACTER_MANAGER.h">
+      <Filter>character\anim,base,manager</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_PLAYER.h">
+      <Filter>character\whiteChara</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_WORLD.h">
+      <Filter>map</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_ROOK.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_PLAYER.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_ROOK.h">
+      <Filter>character\whiteChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_STAGE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_STAGE.h">
+      <Filter>scene</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_PAWN.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BULLET.h">
+      <Filter>character\bulletChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BISHOP_BULLET.h">
+      <Filter>character\bulletChara</Filter>
+    </ClInclude>
+    <ClInclude Include="PBULLET.h">
+      <Filter>character\bulletChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_BISHOP.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_BISHOP.h">
+      <Filter>character\whiteChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_KNIGHT.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_KNIGHT.h">
+      <Filter>character\whiteChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_KING.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_KING.h">
+      <Filter>character\whiteChara</Filter>
+    </ClInclude>
+    <ClInclude Include="WHITE_QUEEN.h">
+      <Filter>character\bulletChara</Filter>
+    </ClInclude>
+    <ClInclude Include="QUEEN_BULLET.h">
+      <Filter>character\bulletChara</Filter>
+    </ClInclude>
+    <ClInclude Include="BLACK_QUEEN.h">
+      <Filter>character\blackChara</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="assets\map1.txt">
+      <Filter>map</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
