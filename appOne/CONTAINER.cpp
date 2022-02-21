@@ -67,7 +67,7 @@ void CONTAINER::CreateData() {
     Data.bplayerChara.charaId = MAP::PLAYER_ID;
     Data.bplayerChara.hp = 10;
     Data.bplayerChara.campId = CHARACTER::BLACK_ID;
-    Data.bplayerChara.groupId = 1;//味方グループは0
+    Data.bplayerChara.groupId = 0;//味方グループは0
     Data.bplayerChara.speed = 3.4f * 60;
     Data.bplayerChara.offsetLeft = 10.0f;
     Data.bplayerChara.offsetTop = 1.0f;
@@ -253,7 +253,7 @@ void CONTAINER::CreateData() {
     Data.wplayerChara.charaId = MAP::WHITE_PLAYER_ID;
     Data.wplayerChara.hp = 10;
     Data.wplayerChara.campId = CHARACTER::WHITE_ID;
-    Data.wplayerChara.groupId = 1;//味方グループは0
+    Data.wplayerChara.groupId = 0;//味方グループは0
     Data.wplayerChara.speed = 3.4f * 60;
     Data.wplayerChara.offsetLeft = 10.0f;
     Data.wplayerChara.offsetTop = 1.0f;
