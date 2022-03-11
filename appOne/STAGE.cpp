@@ -1,6 +1,7 @@
 #include"window.h"
 #include"graphic.h"
 #include"input.h"
+#include"sound.h"
 #include"GAME.h"
 #include"CONTAINER.h"
 #include"MAP.h"
@@ -21,6 +22,11 @@ void STAGE::init() {
     game()->whiteStage()->init();
     game()->characterManager()->bulletInit();
     game()->fade()->inTrigger();
+    sound();
+}
+void STAGE::sound() {
+    setVolume(Stage.stageSnd,-1250);
+    playLoopSound(Stage.stageSnd);
 }
 void STAGE::proc() {
     update();
@@ -115,4 +121,8 @@ void STAGE::gameclear() {
     if (game()->fade()->outEndFlag()) {
         game()->setCurScene(game()->title());
     }
+}
+void STAGE::killSound() {
+    setVolume(Stage.killSnd, -1250);
+    playSound(Stage.killSnd);
 }

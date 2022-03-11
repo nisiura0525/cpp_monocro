@@ -1,6 +1,7 @@
 #include"graphic.h"
 #include "CONTAINER.h"
 #include"ANIMS.h"
+#include"sound.h"
 CONTAINER::~CONTAINER() {
    //キャライメージANIMdelet
     delete Data.bplayerChara.anims;
@@ -493,6 +494,9 @@ void CONTAINER::CreateData() {
     Data.story.backColor = COLOR(255, 255, 255, 255);
     Data.story.boxColor = COLOR(255,255,255,255);
 
+    //音
+    Data.stage.stageSnd = loadSound("assets\\BGM\\Gut_Check.wav");
+    Data.stage.killSnd = loadSound("assets\\BGM\\ke.wav");
 }
 void CONTAINER::LoadGraphics() {
     Data.title.backImg = loadImage("assets\\TITLE.png");

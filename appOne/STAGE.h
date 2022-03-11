@@ -18,7 +18,8 @@ public:
         float logoPx = 0;
         float logoPy = 0;
         float tSize = 0;
-
+        int stageSnd = 0;
+        int killSnd = 0;
     };
 private:
     DATA Stage;
@@ -35,4 +36,6 @@ public:
     void nextScene();
     void gameover();
     void gameclear();
+    void sound();
+    void killSound();
 };

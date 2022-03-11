@@ -75,6 +75,7 @@ void BLACK_PAWN::damage() {
     if (Chara.hp > 0) {
         BlackPawn.damageTime = BlackPawn.damageInterval;
         Chara.hp--;
+        game()->stage()->killSound();
         if (Chara.hp == 0) {
             game()->characterManager()->appear(BlackPawn.explosionCharaId,
                 Chara.wx, Chara.wy);
